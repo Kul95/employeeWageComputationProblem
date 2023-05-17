@@ -19,5 +19,9 @@ public class EmployeeWageComputationProblem {
         }
         int dailyEmp_Wage=empHour*empWageHour;
         System.out.println("Daily employee wage: "+dailyEmp_Wage);
+        empHour=4;
+        int partTimeEmpWage=empHour*empWageHour;
+        System.out.println("Part time employee wage:"+partTimeEmpWage);
     }
+
 }
